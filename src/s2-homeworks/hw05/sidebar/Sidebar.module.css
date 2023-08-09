@@ -29,7 +29,7 @@ width: 100%;
 
 
 .nav a:hover {
-    color:white;
+    color:#8a8a8a;
 }
 
 
@@ -40,10 +40,10 @@ width: 100%;
 .close img {
 }
 .link{
-    color:teal;
+    color:black;
 }
 .active{
-    color:darkmagenta;
+    color:red;
 }
 .hidden{
     display: none;
