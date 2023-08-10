@@ -46,12 +46,11 @@ function Clock() {
         setShow(false)
     }
 
-    const stringTime = `${helper(date.getHours())} : ${helper(date.getMinutes())} : ${helper(date.getSeconds())} `
-
+    const stringTime = `${helper(date.getHours())}:${helper(date.getMinutes())}:${helper(date.getSeconds())} `
 
     // часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01) // пишут студенты
-    const stringDate = `${helper(date.getDate())} : ${helper(date.getMonth())} : ${helper(date.getFullYear())} ` // день.месяц.год (01.02.2022) // пишут студенты, варианты 01.02.0123/01.02.-123/01.02.12345 не рассматриваем
-
+    const stringDate = `${helper(date.getDate())}.${helper(date.getMonth() +1)}.${helper(date.getFullYear())}` // день.месяц.год (01.02.2022) // пишут студенты, варианты 01.02.0123/01.02.-123/01.02.12345 не рассматриваем
+    console.log(stringDate)
     let formatterDay = new Intl.DateTimeFormat("eng", {
         weekday:"long",
     });
