@@ -31,14 +31,14 @@ const HW13 = () => {
 
         setCode('')
         setImage(errorUnknown)
-        setText('')
+
         setInfo('...loading')
 
         axios
             .post(url, {success: x})
             .then((res) => {
-
-                setCode('Код 200!')
+                setText(res.data.errorText)
+                setCode(`Код ${res.status} !!!!`)
                 setImage(success200)
                 setInfo(res.data.info)
 
