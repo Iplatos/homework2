@@ -41,13 +41,13 @@ const getTechs = (params: ParamsType) => {
 const HW15 = () => {
     const [sort, setSort] = useState('')
     const [page, setPage] = useState(1)
-    const [count, setCount] = useState(10)
+    const [count, setCount] = useState(4)
     const [idLoading, setLoading] = useState(false)
     const [totalCount, setTotalCount] = useState(100)
     const [searchParams, setSearchParams] = useSearchParams()
     const [techs, setTechs] = useState<TechType[]>([])
 
-
+    console.log(techs)
 
     const sendQuery = (params: any) => {
 
@@ -85,8 +85,8 @@ const HW15 = () => {
     const onChangeSort = (newSort: string) => {
         setSort(newSort)
         setPage(1)
-        setSearchParams({sort:newSort,page:"1", count:count.toString()})
-        sendQuery({sort:newSort})
+        setSearchParams({sort:newSort, page:"1", count:count.toString()})
+        sendQuery({sort:newSort, page, count})
         // делает студент
 
         // setSort(
