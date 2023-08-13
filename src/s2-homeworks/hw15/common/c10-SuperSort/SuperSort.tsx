@@ -19,17 +19,23 @@ export const pureChange = (sort: string, down: string, up: string) => {
     // пишет студент, sort: (click) => down (click) => up (click) => '' (click) => down ...
     console.log(sort)
     let newSort = ""
-if (sort===""){
+/*if (sort===""){
     newSort = up
 } if (sort === up){
         newSort = down
     } if (sort === down){
         newSort = ""
-    }
+    }*/
+/*if(sort === "") {
+    newSort = down
+} else if(sort === down) {
+    newSort = up
+} else {
+    newSort = ""
+}*/
 
+    return sort=== down? up : sort === up ? "" : down
 
-    //sort=== up? down : up
-    return newSort
 }
 
 const SuperSort: React.FC<SuperSortPropsType> = (
