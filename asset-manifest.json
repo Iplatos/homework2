@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/homework2/static/css/main.5db292a7.css",
-    "main.js": "/homework2/static/js/main.eba7d7d6.js",
+    "main.css": "/homework2/static/css/main.011a4cf6.css",
+    "main.js": "/homework2/static/js/main.e736f88e.js",
     "static/js/787.66cb4309.chunk.js": "/homework2/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/homework2/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/200.svg": "/homework2/static/media/200.96248f7df0dde10e0a82ac30418f50bc.svg",
@@ -9,17 +9,19 @@
     "static/media/500.svg": "/homework2/static/media/500.adbc5f265f6f3c1fb9c5633ffe365afa.svg",
     "static/media/400.svg": "/homework2/static/media/400.8baa1b795048b6fa13ff8d30800aa1b1.svg",
     "static/media/404.svg": "/homework2/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
+    "static/media/telegramlogo.jpg": "/homework2/static/media/telegramlogo.53c41b2ae8f6b8e0a3ee.jpg",
+    "static/media/Без названия (1).jpg": "/homework2/static/media/Без названия (1).6aca820e2ee0daaa3f47.jpg",
     "static/media/closeOutline.svg": "/homework2/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
     "static/media/editIcon.svg": "/homework2/static/media/editIcon.0a0cefd2190b593b4f76bb1a5afe0c1f.svg",
     "static/media/checked.svg": "/homework2/static/media/checked.b75ca55e8759862b4083.svg",
     "index.html": "/homework2/index.html",
     "static/media/burger.svg": "/homework2/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.5db292a7.css.map": "/homework2/static/css/main.5db292a7.css.map",
-    "main.eba7d7d6.js.map": "/homework2/static/js/main.eba7d7d6.js.map",
+    "main.011a4cf6.css.map": "/homework2/static/css/main.011a4cf6.css.map",
+    "main.e736f88e.js.map": "/homework2/static/js/main.e736f88e.js.map",
     "787.66cb4309.chunk.js.map": "/homework2/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5db292a7.css",
-    "static/js/main.eba7d7d6.js"
+    "static/css/main.011a4cf6.css",
+    "static/js/main.e736f88e.js"
   ]
 }
